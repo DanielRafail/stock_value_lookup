@@ -1,0 +1,87 @@
+#main_body {
+  background-color: #aaa;
+  height: 1000px;
+  padding: 2%;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+#page_title {
+  background-color: #ccc;
+  display: initial;
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+nav {
+  background-color: #555;
+  height: 50px;
+}
+
+nav input {
+  background-color: #555;
+  border: none;
+  color: white;
+  display: block;
+  float: left;
+  height: 50px;
+  width: 100px;
+}
+
+nav input:hover {
+  background-color: #ccc;
+}
+
+#prompt {
+  font-family: sans-serif;
+}
+
+#symbollist {
+  width: 200px;
+}
+
+#submit {
+  background-color: darkblue;
+  border: #ccc 1px solid;
+  margin-top: 0.5%;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  width: 100px;
+}
+
+#lasttrade {
+  background-color: #555;
+  color: white;
+  font-family: sans-serif;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+#articles {
+  background-color: #ccc;
+  padding: 5px;
+  margin-top: 10px;
+  overflow-y: scroll;
+  height: 600px;
+}
+
+footer {
+  background-color: #555;
+  color: white;
+  font-family: sans-serif;
+  height: 100px;
+  margin-top: 5px;
+  padding: 7px;
+  text-align: center;
+}
+
+footer p {
+  display: initial;
+}
+
+#error {
+  color: red;
+}
